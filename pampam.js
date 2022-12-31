@@ -1,6 +1,6 @@
-const zalupa = 'MyNAMEIsBONDIsSpy';
+const str = 'MyNAMEIsBONDIsSpy';
 
-const jopa = (str) => {
+const toSnakeCase = (str) => {
     const res = [];
     let firstUp;
     let last;
