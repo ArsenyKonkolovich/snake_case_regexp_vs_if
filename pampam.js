@@ -38,4 +38,4 @@ const toSnakeCase = (str) => {
     return res.map((word) => word.toLowerCase()).join('_');
 }
 
-console.log(jopa(zalupa));
+console.log(toSnakeCase(str));
